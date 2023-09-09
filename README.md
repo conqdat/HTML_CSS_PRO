@@ -1,14 +1,14 @@
 # HTML_CSS_PRO_F8
 
-### Sử dụng CSS Prefix (tiền tố trong CSS) cho một số thuộc tính CSS có thể hoạt động trên nhiều trình duyệt hơn. Các tiền tố thường sử dụng bao gồm: -webkit-, -moz-, -ms-, -o-, bạn có thể tham khảo thêm tại: Vendor Prefix.
+- **Sử dụng CSS Prefix (tiền tố trong CSS) cho một số thuộc tính CSS có thể hoạt động trên nhiều trình duyệt hơn. Các tiền tố thường sử dụng bao gồm: -webkit-, -moz-, -ms-, -o-, bạn có thể tham khảo thêm tại: Vendor Prefix.**
 
-#### Cách đơn giản nhất để thêm CSS Prefix thủ công đó là: trước tiên hãy viết CSS không có prefix, sau đó sử dụng trang web autoprefixer.github.io và dán (paste) CSS của bạn vào để nhận lại CSS có đầy đủ prefix.
+- **Cách đơn giản nhất để thêm CSS Prefix thủ công đó là: trước tiên hãy viết CSS không có prefix, sau đó sử dụng trang web autoprefixer.github.io và dán (paste) CSS của bạn vào để nhận lại CSS có đầy đủ prefix.**
 
-### Các thuộc tính CSS có nhãn user agent stylesheet là thuộc tính mặc định được trình duyệt tự động thêm vào. Bạn có thể kiểm tra được điều này thông qua DevTools.
+- **Các thuộc tính CSS có nhãn user agent stylesheet là thuộc tính mặc định được trình duyệt tự động thêm vào. Bạn có thể kiểm tra được điều này thông qua DevTools.**
 
-### Chỉ các thuộc tính CSS có thông số Inherited: yes mới có tính thừa kế. Có thể tra cứu các thuộc tính CSS tại w3schools.com hoặc developer.mozilla.org với từ khóa tìm kiếm: CSS [tên thuộc tính] property.
+- **Chỉ các thuộc tính CSS có thông số Inherited: yes mới có tính thừa kế. Có thể tra cứu các thuộc tính CSS tại w3schools.com hoặc developer.mozilla.org với từ khóa tìm kiếm: CSS [tên thuộc tính] property.**
 
-### Tất cả các thẻ HTML mặc định có thuộc tính display, tùy vào loại thẻ đó thì display sẽ có giá trị tương ứng. Ví dụ: thẻ block sẽ mặc định có display: block, thẻ inline sẽ mặc định có display: inline.
+- **Tất cả các thẻ HTML mặc định có thuộc tính display, tùy vào loại thẻ đó thì display sẽ có giá trị tương ứng. Ví dụ: thẻ block sẽ mặc định có display: block, thẻ inline sẽ mặc định có display: inline.**
 
 ## Trường hợp sử dụng display: none, opacity: 0 và visibility: hidden: ( chương 15 )
 
@@ -103,3 +103,12 @@
 - border-box: padding + border + content
 
 ## CSS Units
+### Absolute units: **px**, cm, mm, in, pt, pc
+- Hiển thị cố định và không thể linh hoạt trên các thiết bị khác nhau 
+
+### Relative units: %, em, rem, vw, vh, vmin, vmax
+- %: **phụ thuộc vào thẻ cha**
+- vh: chiều cao của viewport
+- vw: chiều rộng của viewport
+- **em: phụ thuộc vào font-size của thẻ cha**
+- **rem: phụ thuộc vào font-size của thẻ root ( thẻ html )**
