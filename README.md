@@ -112,3 +112,29 @@
 - vw: chiều rộng của viewport
 - **em: phụ thuộc vào font-size của thẻ cha**
 - **rem: phụ thuộc vào font-size của thẻ root ( thẻ html )**
+
+## Color in CSS:
+- name: red,  green,...
+- HEX: #ff0000, #00ff00,... // 0123456789abcdef // #rrggbb 
+- RGB / RGBA: rgb(255, 0, 0), rgba(255, 0, 0, 0.5)
+- currentColor: color: red; border: 1px solid currentColor;
+
+## Background:
+- Background-color: 
+- Background-image: 
+    - Default Value: none
+    - Background-repeat: repeat, repeat-x, repeat-y, no-repeat
+    - Background-position: top left, top center, top right, center left, center center, center right, bottom left, bottom center, bottom right
+    - Background-attachment: scroll, fixed, local
+    - Background-size: auto, cover (lắp đầy), contain (chứa)
+    - Linear-gradient: background-image: linear-gradient(to right, red, yellow);
+
+## Font:
+- Serif: có chân
+- Sans-serif: không chân ( được sử dụng rất nhiều )
+- Monospace: đều nhau ( viết code )
+- Letter-spacing: Khoảng cách giữa các chữ cái
+- Word-spacing: Khoảng cách giữa các từ
+- Line-height: Khoảng cách giữa các dòng
+- Text-align: left, right, center, justify
+- Text-decoration: none, underline, overline, line-through

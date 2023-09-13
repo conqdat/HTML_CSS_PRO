@@ -6,3 +6,8 @@
     margin-right: auto;
     color: white;
 }
+
+.text {
+    text-align:center;
+    display: block;
+}
