@@ -138,3 +138,9 @@
 - Line-height: Khoảng cách giữa các dòng
 - Text-align: left, right, center, justify
 - Text-decoration: none, underline, overline, line-through
+
+## Image
+- Độ rộng tối đa: max-width: 100%;
+- Lazy load: Ảnh được load khi nào cần thiết => <img loading="lazy" />
+- Xử lý hình ảnh có kích thước tối đa: max-with: 100%; 
+- Giữ đúng tỉ lệ hình ảnh: đặt with or height
