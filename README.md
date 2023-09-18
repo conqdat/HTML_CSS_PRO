@@ -144,3 +144,12 @@
 - Lazy load: Ảnh được load khi nào cần thiết => <img loading="lazy" />
 - Xử lý hình ảnh có kích thước tối đa: max-with: 100%; 
 - Giữ đúng tỉ lệ hình ảnh: đặt with or height
+
+
+## Position:
+- Static: default
+- Relative: tương đối với vị trí ban đầu
+- Absolute:
+    - định vị theo thẻ body nếu không có thẻ nào có position: relative
+    - tương đối với thẻ cha có position: relative
+    - có nhiều thẻ có position: absolute thì thẻ nào viết sau thì thẻ đó nằm trên cùng
