@@ -153,3 +153,4 @@
     - định vị theo thẻ body nếu không có thẻ nào có position: relative
     - tương đối với thẻ cha có position: relative
     - có nhiều thẻ có position: absolute thì thẻ nào viết sau thì thẻ đó nằm trên cùng
+<!-- - Fixed: tương đối với viewport  -->
