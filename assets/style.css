@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    background: #6d2f2f;
+}
+/* Con truc tiep  */
+.menu > li {
+  position: relative;
+  display: inline-block;
+  margin: 0 12px;
+  padding-bottom: 20px;
+}
+.menu > li:hover .sub-menu {
+  display: block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.sub-menu {
+  display: none;
+  top: 32px;
+  left: -16px;
+  position: absolute;
+  background-color: white;
+  width: 140px;
+}
+
+.sub-menu li:hover {
+  background-color: #ddd;
+}
+.sub-menu a {
+  color: #333;
+  padding: 8px 16px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
