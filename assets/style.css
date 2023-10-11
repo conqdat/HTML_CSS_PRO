@@ -9,12 +9,14 @@ body {
 }
 /* Con truc tiep  */
 .menu > li {
-  position: relative;
   display: inline-block;
   margin: 0 12px;
   padding-bottom: 20px;
 }
-.menu > li:hover .sub-menu {
+.menu li { 
+  position: relative;
+}
+.menu li:hover > .sub-menu {
   display: block;
 }
 
@@ -30,7 +32,11 @@ body {
   background-color: white;
   width: 140px;
 }
-
+.sub-menu .sub-menu {
+  left: 100%;
+  top: 0;
+  display: none;
+}
 .sub-menu li:hover {
   background-color: #ddd;
 }
