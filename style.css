@@ -1,31 +1,62 @@
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: #0000ff;
-    /* margin-left: auto; */
-    margin-right: auto;
-    color: white;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.text {
-    text-align:center;
-    display: block;
+html {
+    font-size: 62.5%;
 }
 
 body {
-    max-width: 800px;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    max-width: 700px;
     margin: 0 auto;
+    padding: 24px;
+    line-height: 1.5;
 }
-.container {
-    width: 400px;
-    height: 400px;
-    background-color: #0000ff;
-    position: absolute;
+
+.content h1 {
+    font-size: 3.2rem;
 }
-.child {
-    background-color: aqua;
-    height: 200px;
-    width: 200px;
+
+.content p {
+    margin: 16px 0;
+    font-size: 1.8rem;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal .body {
     position: relative;
-    top: 400px;
+    margin: auto;
+    width: 440px;
+}
+.modal .close-btn {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: -16px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    color: #666;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+.modal .body img {
+    width: 100%;
 }
