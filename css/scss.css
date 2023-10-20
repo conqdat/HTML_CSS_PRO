@@ -1,6 +1,14 @@
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .parent .a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100px;
-  height: 100px;
+  height: 200px;
   background-color: red;
 }
 .parent h2 {

@@ -200,3 +200,5 @@ display: block;
 - Nested rules và variables trong Sass
 - &: parent
 - Biến: $primary / Usage: color: $primary-color;    
+- extends: @extend
+- Mixins

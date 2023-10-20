@@ -1,9 +1,21 @@
 $primary-color : red;
 
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin size($width, $height: 500px) {
+    width: $width;
+    height: $height;
+}
+
 .parent {
+    @include flexCenter();
     & .a {
-        width: 100px;
-        height: 100px;
+        @include flexCenter;
+        @include size(100px,  200px);
         background-color: $primary-color;
     }
     h2 {
@@ -13,3 +25,5 @@ $primary-color : red;
         color: aqua;
     }
 }
+
+
