@@ -1,0 +1,13 @@
+.parent .a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.parent h2 {
+  color: aquamarine;
+}
+.parent .chil {
+  color: aqua;
+}
+
+/*# sourceMappingURL=scss.css.map */

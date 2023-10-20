@@ -193,3 +193,10 @@ display: block;
 }
 
 ## Gird system
+
+
+## SASS / CSCC
+- sass scss/scss.scss css/scss.css -w
+- Nested rules và variables trong Sass
+- &: parent
+- Biến: $primary / Usage: color: $primary-color;

@@ -1,0 +1,15 @@
+$primary-color : red;
+
+.parent {
+    & .a {
+        width: 100px;
+        height: 100px;
+        background-color: $primary-color;
+    }
+    h2 {
+        color: aquamarine;
+    }
+    .chil {
+        color: aqua;
+    }
+}
