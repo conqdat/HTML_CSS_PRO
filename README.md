@@ -202,3 +202,15 @@ display: block;
 - Biến: $primary / Usage: color: $primary-color;    
 - extends: @extend
 - Mixins
+- @if, @media và mixin có @content trong Sass
+
+========================================================================
+
+
+
+## Transitions && animations 
+
+
+
+
+
