@@ -1,0 +1,20 @@
+{
+  "name": "html_css_pro",
+  "version": "1.0.0",
+  "description": "`sass scss/style.scss style.css` => compile scss to css\r `sass scss/style.scss style.css -w` => compile scss to css and watch for changes\r `sass scss:assets/css -w` => compile all scss files in scss folder to css and watch for changes",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass scss/style.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DatTranConggg/HTML_CSS_PRO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DatTranConggg/HTML_CSS_PRO/issues"
+  },
+  "homepage": "https://github.com/DatTranConggg/HTML_CSS_PRO#readme"
+}

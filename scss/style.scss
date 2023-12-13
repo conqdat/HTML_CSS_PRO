@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+$primary-color: red;
+
+h1 {
+  color: $primary-color;
+  font-size: 100px;
+}
+
+// VD 1
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+
+  .thumb {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  strong {
+    color: red;
+  }
+
+  .desc {
+    font-size: 18px;
+  }
+
+  .btn-link {
+    color: #666;
+  }
+}
+
+// VD 2: parent selector .card-thumb
+// .card {
+//     width: 300px;
+//     padding: 20px;
+//     border: 2px solid #ccc;
+//     border-radius: 8px;
+
+//     &-thumb {
+//         width: 100%;
+//     }
+
+//     &-title {
+//         font-size: 22px;
+//     }
+
+//     strong {
+//         color: red;
+//     }
+
+//     &-desc {
+//         font-size: 18px;
+//     }
+
+//     &-btn-link {
+//         color: #666;
+//     }
+// }
