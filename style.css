@@ -31,4 +31,19 @@ h1 {
   color: #666;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */

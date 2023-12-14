@@ -57,3 +57,16 @@ h1 {
   }
 }
 ```
+
+## @Extend
+
+## @Mixin
+
+## @if @else
+
+## Partial
+
+- using @import to import partials
+- @use to import partials // recommended
+
+## 7-1 Pattern

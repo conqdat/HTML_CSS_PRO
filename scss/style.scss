@@ -66,3 +66,26 @@ h1 {
 //         color: #666;
 //     }
 // }
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  @include flexCenter;
+
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+.box {
+  @include flexCenter;
+}
+
+@debug 1 == 1;
